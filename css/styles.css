@@ -8,10 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-.wrapper {
-   
-}
-
 .title-wrapper {
     display: flex;
     flex-direction: column;
