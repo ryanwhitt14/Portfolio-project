@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+   
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #7980b3;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.profile-img-wrap {
+    width: 20rem;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.name-h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+.title-h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.experience-h3 {
+    color: #fff;
+    border-bottom: .1rem solid white;
+    font-size: 2rem;
+    padding: .4rem;
+}
+
+.experience-list,
+.experience-list-2 {
+    color: #fff;
+}
+
+.experience-list li,
+.experience-list-2 li {
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.main-img-container {
+    margin: 1rem 0;
+}
+
+.main-img,
+.frogger-app,
+.concentration-app,
+.performance-app {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.other-projects {
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.featured-work {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #7980b3;
+}
+
+.frogger-wrapper,
+.concentration-wrapper,
+.performance-wrapper {
+    width: 20rem;
+}
+
+.frogger-caption,
+.concentration-caption,
+.performance-caption {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.about-me-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #7980b3;
+}
+
+.hobbies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-h2 {
+    font-size: 3rem;
+    color: #7980b3;
+    text-align: center;
+}
+
+.dev-as-hobbie-container,
+.other-hobbies-container {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.dev-as-hobbie-h3,
+.other-hobbies-h3 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.dev-as-hobbie-par,
+.other-hobbies-par {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contact-wrapper {
+    padding-bottom: 3rem;
+}
+
+.contact-title {
+    text-align: center;
+    padding: .5rem;
+    font-size: 3rem;
+    color: #7980b3;
+}
+
+.email,
+.phone-number {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    align-items: flex-end;
+}
+
+.email-h3,
+.phone-h3 {
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+.email-address,
+.cell-number {
+    font-size: 1.5rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.github-icon,
+.linkedin-icon {
+    width: 3rem;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 650px) {
+
+    .name-h1 {
+        font-size: 7rem;
+    }
+
+    .title-h3 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .featured-work,
+    .about-me-h2,
+    .contact-title {
+        font-size: 4rem;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .experience-h3 {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .experience-list-container {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .experience-list li,
+    .experience-list-2 li {
+        font-size: 2rem;
+    }
+
+    .hobbies-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .dev-as-hobbie-container,
+    .other-hobbies-container {
+        width: 40%;
+    }
+
+    .dev-as-hobbie-h3,
+    .other-hobbies-h3 {
+        font-size: 2.4rem;
+    }
+
+    .dev-as-hobbie-par,
+    .other-hobbies-par {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .frogger-wrapper,
+    .concentration-wrapper,
+    .performance-wrapper {
+        width: 30rem;
+    }
+
+}
